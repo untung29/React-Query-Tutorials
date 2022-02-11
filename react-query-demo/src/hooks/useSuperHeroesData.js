@@ -10,10 +10,10 @@ export const useSuperHeroesData = (onSuccess, onError) => {
     {
       onSuccess: onSuccess,
       onError: onError,
-      select: data => {
-        const superHeroNames = data.data.map(hero => hero.name);
-        return superHeroNames;
-      },
+      // select: data => {
+      //   const superHeroNames = data.data.map(hero => hero.name);
+      //   return superHeroNames;
+      // },
     },
   );
 };
